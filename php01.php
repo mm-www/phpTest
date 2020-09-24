@@ -3,10 +3,12 @@
 //1. $a　という変数に3を、$b　という変数に7を代入して、echoを使って$a+$bの結果を表示してみましょう。
 $value = 3;
 echo $value + 7;
+echo "<br>";
 
 //2. $array_month という配列に1月〜12月の文字列を代入し、echoで8月を表示してみましょう。
 $array = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 echo $array[7];
+echo "<br>";
 
 //3. $hello　という変数に　”Hello, “を $name という変数にあなたの名前を、$world という変数に　”‘s World!” を代入して、各変数を連結させて “Hello, あなたの名前’s World!” と表示してみましょう。
 $hello = "Hello, ";
@@ -15,13 +17,14 @@ $world = "‘s World!";
 echo $hello;
 echo $name;
 echo $world;
+echo "<br>";
 
 //4. $tech_boostに “tech “という文字列が代入されています。複合演算を使って、echo $tech_boost:と実行すると「tech boost」と表示されるように実装してみましょう。
 $tech_boost = "tech ";
 echo $tech_boost . "boost";
+echo "<br>";
 
 //5. 【応用】次のプログラムにはバグがあります。どこにバグが有るか調べて修正してみましょう。(バグは1つとは限りません。)
-
 $calendar_2020 = [
   "January" => "1月",
   "February" => "2月",
